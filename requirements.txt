@@ -1,0 +1,8 @@
+# Dipendenze del solo calcolatore, per la pubblicazione su un servizio di
+# hosting. Il modello è esportato in forma numerica (modello_app.json), quindi
+# non servono né scikit-survival né lifelines: nessuna compilazione, nessun
+# vincolo sulla versione con cui il modello è stato addestrato.
+streamlit>=1.30
+pandas>=2.0
+numpy>=1.24
+altair>=5.0
